@@ -1,0 +1,138 @@
+/*
+* Mobile Stylesheet Canopea Theme
+*/
+/*--------------------------------------------------------------
+# Max-width 720px
+---------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Icon box
+---------------------------------------------------------------*/
+@media only screen and (min-width: 0px) and (max-width: 1024px) {
+  /* Typos */
+  /* line 14, ../sass/mobile.scss */
+  .big-title-light {
+    font-size: 27px;
+  }
+
+  /* line 18, ../sass/mobile.scss */
+  .sub-title-light {
+    font-size: 18px;
+  }
+
+  /* line 22, ../sass/mobile.scss */
+  .sub-title-dark {
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+
+  /* line 27, ../sass/mobile.scss */
+  .headline-solo {
+    font-size: 22px;
+    line-height: 35px;
+    padding-top: 0;
+  }
+
+  /* line 33, ../sass/mobile.scss */
+  .img-title {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  /* line 38, ../sass/mobile.scss */
+  .img-title-light {
+    font-size: 30px;
+  }
+
+  /* Banners */
+  /* line 43, ../sass/mobile.scss */
+  .banner-top {
+    min-height: 300px;
+  }
+
+  /* line 47, ../sass/mobile.scss */
+  .icon-box {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  /* Images */
+  /* line 53, ../sass/mobile.scss */
+  .hide-img {
+    display: none;
+  }
+
+  /* line 57, ../sass/mobile.scss */
+  .margin-mobile {
+    margin-bottom: 50px;
+  }
+
+  /* Contact Social Networks */
+  /* line 62, ../sass/mobile.scss */
+  .social-wrapper {
+    padding: 1.75em;
+  }
+
+  /* Contact Bloc */
+  /* line 68, ../sass/mobile.scss */
+  .contact-wrapper h2 {
+    font-size: 52px;
+  }
+
+  /* line 74, ../sass/mobile.scss */
+  .contact-btn button {
+    font-size: 23px;
+  }
+
+  /* Navigation */
+  /* line 80, ../sass/mobile.scss */
+  .switch-menu {
+    display: block;
+  }
+
+  /* line 84, ../sass/mobile.scss */
+  .nav {
+    display: block;
+    text-align: center;
+  }
+
+  /* line 89, ../sass/mobile.scss */
+  .main-nav {
+    float: none;
+    width: 100%;
+    padding-top: 60px;
+    height: 0;
+    transition: all ease .2s;
+  }
+  /* line 95, ../sass/mobile.scss */
+  .main-nav li {
+    border-bottom: solid 1px #ffffff;
+  }
+  /* line 97, ../sass/mobile.scss */
+  .main-nav li:last-child {
+    border-bottom: 0;
+  }
+
+  /* line 103, ../sass/mobile.scss */
+  .menu-open {
+    height: 380px;
+  }
+}
+/*--------------------------------------------------------------
+# Max-width 1280px
+---------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Navigation
+---------------------------------------------------------------*/
+@media only screen and (min-width: 1024px) {
+  /* Banners */
+  /* line 118, ../sass/mobile.scss */
+  .banner-top {
+    min-height: 700px;
+  }
+
+  /* Images */
+  /* line 123, ../sass/mobile.scss */
+  .hide-desk {
+    display: none;
+  }
+}

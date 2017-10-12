@@ -1,0 +1,479 @@
+/*
+* Custom StyleSheet Canopea Theme
+*/
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,700");
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENT
+----------------------------------------------------------------
+#Typography
+#Navigation
+#Home
+##Slider
+##Contact
+#Qui sommes-nous?
+##Banner top
+##Icon box
+#Header
+#Footer
+
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Reset
+--------------------------------------------------------------*/
+/* line 25, ../sass/custom-style.scss */
+ul {
+  margin: 0 !important;
+  padding: 0;
+}
+
+/* line 30, ../sass/custom-style.scss */
+li {
+  list-style: none;
+}
+
+/* line 34, ../sass/custom-style.scss */
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+/* line 43, ../sass/custom-style.scss */
+body {
+  font-family: 'Rubik';
+}
+
+/* line 47, ../sass/custom-style.scss */
+.big-title-light {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 4.5em;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+/* line 55, ../sass/custom-style.scss */
+.big-title-dark {
+  color: #222222;
+  font-weight: 700;
+  font-size: 5vw;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+/* line 63, ../sass/custom-style.scss */
+.sub-title-light {
+  color: #ffffff;
+  font-size: 2em;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+/* line 70, ../sass/custom-style.scss */
+.sub-title-dark {
+  color: #222222;
+  font-size: 3vw;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+/* line 77, ../sass/custom-style.scss */
+.headline {
+  font-size: 2.2em;
+  font-weight: 400;
+  line-height: 47px;
+  margin-bottom: 0.5em;
+}
+
+/* line 84, ../sass/custom-style.scss */
+.headline-solo {
+  font-size: 2.2em;
+  font-weight: 400;
+  line-height: 47px;
+  padding-bottom: 15px;
+  padding-top: 0;
+  margin-bottom: 0.5em;
+}
+
+/* line 93, ../sass/custom-style.scss */
+.highlight-text {
+  font-size: 1.2em;
+  line-height: 32px;
+}
+
+/* line 98, ../sass/custom-style.scss */
+.highlight-text-light {
+  font-size: 1.2em;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+/* line 104, ../sass/custom-style.scss */
+.img-title {
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+/* line 111, ../sass/custom-style.scss */
+.img-title-light {
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+/* line 123, ../sass/custom-style.scss */
+.nav-item a {
+  color: #ffffff;
+  display: block;
+  padding: .5rem 1rem;
+  font-size: 1em;
+}
+/* line 128, ../sass/custom-style.scss */
+.nav-item a:hover {
+  color: #3bc4ba;
+  text-decoration: none;
+}
+
+/* line 135, ../sass/custom-style.scss */
+.main-nav {
+  float: right;
+}
+/* line 137, ../sass/custom-style.scss */
+.main-nav li {
+  transition: all ease .3s;
+}
+/* line 140, ../sass/custom-style.scss */
+.main-nav li:hover {
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+/* line 146, ../sass/custom-style.scss */
+.switch-menu {
+  background-color: transparent;
+  border-color: transparent;
+  position: absolute;
+  right: 0;
+  display: none;
+}
+/* line 152, ../sass/custom-style.scss */
+.switch-menu :before {
+  color: #ffffff;
+}
+/* line 155, ../sass/custom-style.scss */
+.switch-menu :hover {
+  cursor: pointer;
+}
+
+/*--------------------------------------------------------------
+# Home
+--------------------------------------------------------------*/
+/* line 163, ../sass/custom-style.scss */
+.fb-social-btn-top {
+  text-align: center;
+  margin-top: 70px;
+}
+
+/*--------------------------------------------------------------
+## Slider
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Contact
+--------------------------------------------------------------*/
+/* line 177, ../sass/custom-style.scss */
+#contact {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 184, ../sass/custom-style.scss */
+.contact-wrapper {
+  background-color: #3bc4ba;
+  color: #fff;
+  padding: 39px;
+  margin-bottom: 5px;
+}
+/* line 189, ../sass/custom-style.scss */
+.contact-wrapper h2 {
+  color: #fff;
+  font-size: 5vw;
+  word-wrap: break-word;
+  letter-spacing: 5px;
+}
+/* line 195, ../sass/custom-style.scss */
+.contact-wrapper i {
+  color: #fff;
+  margin-right: 20px;
+}
+/* line 198, ../sass/custom-style.scss */
+.contact-wrapper i:last-child {
+  margin-right: 0;
+}
+
+/* line 204, ../sass/custom-style.scss */
+.contact-btn {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+/* line 209, ../sass/custom-style.scss */
+.contact-btn button {
+  font-size: 1vw;
+  font-weight: 400;
+  padding: 1rem 1.5rem;
+  font-family: 'Rubik';
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: transparent;
+  border: solid 2px #fff;
+  transition: all ease .2s;
+}
+/* line 220, ../sass/custom-style.scss */
+.contact-btn button:hover {
+  background-color: #ffffff;
+  color: #3bc4ba;
+  border-color: #ffffff;
+}
+
+/*--------------------------------------------------------------
+# Qui sommes-nous?
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Banner top
+--------------------------------------------------------------*/
+/* line 234, ../sass/custom-style.scss */
+.banner-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*--------------------------------------------------------------
+## Icon box
+--------------------------------------------------------------*/
+/* line 243, ../sass/custom-style.scss */
+.icon-box h5 {
+  font-weight: 500;
+  padding: 0.7em 0;
+}
+
+/* line 248, ../sass/custom-style.scss */
+.icon-box p {
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+/* line 253, ../sass/custom-style.scss */
+.fa {
+  color: #3bc4ba;
+  margin-bottom: 10px;
+}
+
+/*--------------------------------------------------------------
+# Visites virtuelles
+--------------------------------------------------------------*/
+/* line 261, ../sass/custom-style.scss */
+.wrapper-desc-img {
+  padding: 0 7rem;
+}
+
+/* line 266, ../sass/custom-style.scss */
+.vv .fa {
+  color: #222222;
+}
+
+/* line 271, ../sass/custom-style.scss */
+.no-padding {
+  padding: 0;
+}
+
+/* line 275, ../sass/custom-style.scss */
+.black-white {
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  transition: all ease .5s;
+}
+
+/* line 281, ../sass/custom-style.scss */
+.black-white:hover {
+  -webkit-filter: grayscale(0);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(0);
+}
+
+/* line 286, ../sass/custom-style.scss */
+.gg-trust {
+  padding: 1.5em 0 !important;
+}
+
+/* line 290, ../sass/custom-style.scss */
+.canopea-bg {
+  background-color: #3bc4ba;
+  overflow: hidden;
+}
+
+/* line 295, ../sass/custom-style.scss */
+.floating-img {
+  position: absolute;
+  right: 0;
+  padding-top: 50px;
+}
+
+/* line 301, ../sass/custom-style.scss */
+.floating-img-right {
+  position: absolute;
+  left: -50px;
+  padding-top: 50px;
+}
+
+/* line 307, ../sass/custom-style.scss */
+.advantages i {
+  margin-right: 15px;
+  line-height: 40px;
+}
+
+/* line 312, ../sass/custom-style.scss */
+.wrapper-vv {
+  overflow: hidden;
+  padding: 0;
+  box-sizing: border-box;
+  min-width: 20% !important;
+}
+
+/* line 319, ../sass/custom-style.scss */
+.vv-content {
+  z-index: 1;
+  background-color: rgba(59, 196, 186, 0.9);
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  position: absolute;
+  top: 30%;
+  box-sizing: border-box;
+}
+/* line 329, ../sass/custom-style.scss */
+.vv-content h3 {
+  text-transform: uppercase;
+  width: 100%;
+  display: inline-block;
+  letter-spacing: 3px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+/* line 337, ../sass/custom-style.scss */
+.vv-content button {
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px;
+  font-family: 'Rubik';
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: transparent;
+  border: solid 2px #fff;
+  transition: all ease .2s;
+}
+/* line 348, ../sass/custom-style.scss */
+.vv-content button:hover {
+  background-color: #ffffff;
+  color: #3bc4ba;
+  border-color: #ffffff;
+}
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+/* line 359, ../sass/custom-style.scss */
+.social-wrapper {
+  background-color: #3bc4ba;
+  float: left;
+  padding: 1.5em;
+}
+/* line 371, ../sass/custom-style.scss */
+.social-wrapper:hover {
+  background-color: #3bf7e7;
+}
+/* line 374, ../sass/custom-style.scss */
+.social-wrapper i {
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+/* line 380, ../sass/custom-style.scss */
+.contact-details {
+  font-size: 12px;
+  font-family: 'Rubik' !important;
+  border: solid 2px #fff;
+  padding: 1rem;
+}
+/* line 385, ../sass/custom-style.scss */
+.contact-details i {
+  margin-right: 10px;
+}
+/* line 388, ../sass/custom-style.scss */
+.contact-details a {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* line 394, ../sass/custom-style.scss */
+.d-wrapper {
+  display: block;
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+/* line 401, ../sass/custom-style.scss */
+.site-header {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #3bc4ba;
+  overflow: hidden;
+}
+
+/* line 408, ../sass/custom-style.scss */
+.site-branding {
+  float: left;
+}
+/* line 410, ../sass/custom-style.scss */
+.site-branding img {
+  max-width: 60px;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+/* line 418, ../sass/custom-style.scss */
+.site-footer {
+  background-color: #3bc4ba;
+  padding: 1rem;
+}
+/* line 421, ../sass/custom-style.scss */
+.site-footer .site-info {
+  color: #ffffff;
+  font-size: .75rem;
+}
+/* line 424, ../sass/custom-style.scss */
+.site-footer .site-info a {
+  color: #ffffff;
+}
+/* line 426, ../sass/custom-style.scss */
+.site-footer .site-info a:hover {
+  cursor: pointer;
+}
